@@ -1,0 +1,27 @@
+General Instructions
+
+1. In case the link to dataset is not useful, same dataset can be downloaded from any online resource.
+
+2. Each group is expected to submit jupyter notebook (.ipynb) with output for each cell.
+
+3. No extension on the deadline
+
+4. Submissions using other python IDEs will not be considered for grading.
+
+NLP Assignment 1
+
+Set 10
+
+Link to the Dataset: https://www.kaggle.com/seriousran/appletwittersentimenttexts
+
+Description of Data: Dataset, consists of text reviews and sentiments.
+
+https://www.ritchieng.com/machine-learning-multinomial-naive-bayes-vectorization/
+ 
+
+Download the file and set it as a Dataframe. (1 Marks)
+Remove punctuations, special characters and stopwords from the text column. Convert the text to lower case. (3 Marks)
+Create two objects X and y. X will be the 'Review' column dataframe and y will be the “Sentiment” column. create a CountVectorizer object and split the data into training and testing sets. Train a MultinomialNB model and Display the confusion Matrix (5 Marks)
+Display the POS tagging on the first 4 rows of ‘Review’ (4 Marks)
+Build and display a dependency parser tree for the sentence:
+“He is one of the five black brothers who sit in judgment of Jon Snow for his actions during his time with the wildlings.” (2 Marks)
